@@ -1,0 +1,57 @@
+[
+	{
+		"id": "01",
+		"title": "Booki",
+		"cover": "../assets/booki.webp",
+		"description": "Création de la page d'accueil d'une agence de voyage : utilisation de HTML et CSS, intégration d'une interface responsive.",
+        "link": "https://github.com/mchaum/booki",
+        "competences": [
+			"HTML",
+			"CSS"
+		]
+	},
+    {
+        "id": "02",
+		"title": "OhMyFood",
+		"cover": "../assets/ohmyfood.webp",
+		"description": "Création de l'interface mobile-first du site d’une start-up spécialisée dans la restauration : utilisation de SASS et implémentation d'animations CSS.",
+        "link": "https://github.com/mchaum/Ohmyfood",
+        "competences": [
+			"HTML",
+			"SASS"
+		]
+    },
+    {
+        "id": "03",
+		"title": "Sophie Bluel - Portfolio architecte",
+		"cover": "../assets/bluel.webp",
+		"description": "Création d'une page web dynamique à partir d'un HTML existant: ajout d'une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.",
+        "link": "https://github.com/mchaum/Portfolio-architecte-sophie-bluel-master",
+        "competences": [
+			"Javascript"
+		]
+    },
+    {
+        "id": "04",
+		"title": "Kasa - Agence de location",
+		"cover": "../assets/kasa.webp",
+		"description": "Implémentation du ront-end d’une application web de location immobilière en utilisant React et React Router : utilisation de composants React et configuration de la navigation entre les différentes pages de l'application avec React router.",
+        "link": "https://github.com/mchaum/Kasa",
+        "competences": [
+			"React",
+			"SASS"
+		]
+    },
+    {
+        "id": "05",
+		"title": "Argent Bank - Application bancaire",
+		"cover": "../assets/argent-bank.webp",
+		"description": "Intégration du front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive : utilisation de React pour développer l'interface utilisateur à partir d'un HTML existant et de Redux pour gérer les données de l'application.",
+        "link": "https://github.com/mchaum/argent-bank",
+        "competences": [
+			"React",
+            "Redux",
+			"SASS"
+		]
+    }
+]

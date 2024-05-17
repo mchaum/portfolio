@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            Développeuse Front-End
+            Home
         </div>
     );
 };

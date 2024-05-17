@@ -16,7 +16,7 @@ const App = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/projets" element={<Projects />} />
+      <Route path="/projects" element={<Projects />} />
       <Route path="/skills" element={<Skills />} />
       {/* Redirection vers une page erreur 404 si l'url ne correspond à rien de connu : */}
       <Route path="*" element={<Home />} />
