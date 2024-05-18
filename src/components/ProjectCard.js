@@ -1,19 +1,29 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import Projects from '../data/Projects.json';
 
 const Card = () => {
     return (
         <div className='card-container'>
-            {/* Indique ce que l'on va faire pour chaque élément des projets : on l'appelle "projey" + on crée un lien et une carte */}
+            {/* Création d'une carte pour chaque projet*/}
             {Projects.map((projet) => (
                 <div key={projet.id} className='card'>
-                    {/* Création d'un lien vers une page projet en fonction de l'id */}
-                    <NavLink to={`/projet/${projet.id}`}>
-                        {/* Création d'une carte + d'un titre pour chaque projet */}
                         <img className='card-img' src={projet.cover} alt={projet.title} />
-                        <h3 className='card-title'>{projet.title}</h3>
-                    </NavLink>
+                        <div className='card-content'>
+                            <h3 className='card-title'>{projet.title}</h3>
+                            <p>{projet.description}</p>
+                            <div className='card-links'>
+                                {/* Parcours de chaque lien et création d'une balise <a> */}
+                                {projet.links.map((link, index) => (
+                                    <a key={index} href={link.link}>{link.name}</a>
+                                ))}
+                            </div>
+                            <div className='card-competences'>
+                                {/* Parcours de chaque compétence et création d'une balise <img> */}
+                                {projet.competences.map((competence, index) => (
+                                    <img key={index} src={competence.icon} alt={competence.name} />
+                                ))}
+                            </div>
+                        </div>
                 </div>
             ))}
         </div>

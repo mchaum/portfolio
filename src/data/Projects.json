@@ -2,56 +2,109 @@
 	{
 		"id": "01",
 		"title": "Booki",
-		"cover": "../assets/booki.webp",
+		"cover": "../assets/booki.png",
 		"description": "Création de la page d'accueil d'une agence de voyage : utilisation de HTML et CSS, intégration d'une interface responsive.",
-        "link": "https://github.com/mchaum/booki",
-        "competences": [
-			"HTML",
-			"CSS"
+        "links": [ {
+			"name": "GitHub",
+			"link": "https://github.com/mchaum/booki"
+		},
+		{
+			"name": "Visualiser",
+			"link": "https://mchaum.github.io/booki/"
+		}	
+		],
+        "competences": [ {
+			"name" : "HTML",
+            "icon" : "../assets/HTML5.png"
+		},
+		{
+			"name" : "CSS",
+			"icon" : "..//assets/CSS3.png"
+		}
 		]
 	},
     {
         "id": "02",
 		"title": "OhMyFood",
-		"cover": "../assets/ohmyfood.webp",
+		"cover": "../assets/ohmyfood.png",
 		"description": "Création de l'interface mobile-first du site d’une start-up spécialisée dans la restauration : utilisation de SASS et implémentation d'animations CSS.",
-        "link": "https://github.com/mchaum/Ohmyfood",
-        "competences": [
-			"HTML",
-			"SASS"
+		"links": [ {
+			"name": "GitHub",
+			"link": "https://github.com/mchaum/Ohmyfood"
+		},
+		{
+			"name": "Visualiser",
+			"link": "https://mchaum.github.io/Ohmyfood/"
+		}	
+		],
+        "competences": [ {
+			"name" : "HTML",
+            "icon" : "../assets/HTML5.png"
+		},
+		{
+			"name" : "SASS",
+			"icon" : "..//assets/SASS.png"
+		}
 		]
     },
     {
         "id": "03",
 		"title": "Sophie Bluel - Portfolio architecte",
-		"cover": "../assets/bluel.webp",
+		"cover": "../assets/bluel.png",
 		"description": "Création d'une page web dynamique à partir d'un HTML existant: ajout d'une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.",
-        "link": "https://github.com/mchaum/Portfolio-architecte-sophie-bluel-master",
-        "competences": [
-			"Javascript"
+		"links": [ {
+			"name": "GitHub",
+			"link": "https://github.com/mchaum/Portfolio-architecte-sophie-bluel-master"
+		}	
+		],
+        "competences": [ {
+			"name" : "Javascript",
+            "icon" : "../assets/JS.png"
+		}
 		]
     },
     {
         "id": "04",
 		"title": "Kasa - Agence de location",
-		"cover": "../assets/kasa.webp",
+		"cover": "../assets/kasa.png",
 		"description": "Implémentation du ront-end d’une application web de location immobilière en utilisant React et React Router : utilisation de composants React et configuration de la navigation entre les différentes pages de l'application avec React router.",
-        "link": "https://github.com/mchaum/Kasa",
-        "competences": [
-			"React",
-			"SASS"
+		"links": [ {
+			"name": "GitHub",
+			"link": "https://github.com/mchaum/Kasa"
+		}	
+		],
+        "competences": [ {
+			"name" : "React",
+            "icon" : "../assets/React.png"
+		},
+		{
+			"name" : "SASS",
+			"icon" : "..//assets/SASS.png"
+		}
 		]
     },
     {
         "id": "05",
 		"title": "Argent Bank - Application bancaire",
-		"cover": "../assets/argent-bank.webp",
+		"cover": "../assets/argent-bank.png",
 		"description": "Intégration du front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive : utilisation de React pour développer l'interface utilisateur à partir d'un HTML existant et de Redux pour gérer les données de l'application.",
-        "link": "https://github.com/mchaum/argent-bank",
-        "competences": [
-			"React",
-            "Redux",
-			"SASS"
+		"links": [ {
+			"name": "GitHub",
+			"link": "https://github.com/mchaum/argent-bank"
+		}	
+		],
+        "competences": [ {
+			"name" : "React",
+            "icon" : "../assets/React.png"
+		},
+		{
+			"name" : "Redux",
+            "icon" : "../assets/Redux.png"
+		},
+		{
+			"name" : "SASS",
+			"icon" : "..//assets/SASS.png"
+		}
 		]
     }
 ]

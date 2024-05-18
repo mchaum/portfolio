@@ -6,6 +6,7 @@ const Projects = () => {
     return (
         <div>
             <Header />
+            <h2>Projets</h2>
             <ProjectCard />
         </div>
     );
