@@ -99,7 +99,7 @@ header img {
   position: relative;
   margin: 0 5% 3% 5%;
   gap: 90px 5%;
-  padding: 55px 10px;
+  padding: 20px 10px 55px 10px;
 }
 
 .card {
@@ -204,4 +204,35 @@ header img {
   .card img {
     height: 255px;
   }
+}
+
+/* Filtres */
+
+.filters {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.filter-btn {
+  background-color: #fff;
+  border: 1px solid #3636;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.selected-filter {
+  background-color: #3636;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    cursor: pointer;
 }

@@ -65,7 +65,7 @@
     },
     {
         "id": "04",
-		"title": "Kasa - Agence de location",
+		"title": "Kasa",
 		"cover": "../assets/kasa.png",
 		"description": "Implémentation du ront-end d’une application web de location immobilière en utilisant React et React Router : utilisation de composants React et configuration de la navigation entre les différentes pages de l'application avec React router.",
 		"links": [ {
@@ -85,7 +85,7 @@
     },
     {
         "id": "05",
-		"title": "Argent Bank - Application bancaire",
+		"title": "Argent Bank",
 		"cover": "../assets/argent-bank.png",
 		"description": "Intégration du front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive : utilisation de React pour développer l'interface utilisateur à partir d'un HTML existant et de Redux pour gérer les données de l'application.",
 		"links": [ {
