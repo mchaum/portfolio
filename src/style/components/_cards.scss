@@ -1,0 +1,119 @@
+@use '../abstracts/variables' as *;
+
+/* Project cards */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+    margin: 0 5% 3% 5%;
+    gap: 90px 5%;
+    padding: 20px 10px 55px 10px;
+}
+
+.card {
+    width: 80%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        color: $main-txt-color;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+}
+
+.card-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    a {
+        background-color: $main-color;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 20px;
+        width: 50%;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+        margin: 0 20px 0 0;
+        text-align: center;
+
+        :hover {
+            color: $main-txt-color;
+        }
+    }
+}
+
+.card-content {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.card-img {
+    border-radius: 10px;
+}
+
+.card-competences {
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+
+    img {
+        height: 70px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .card-container {
+        padding: 35px 0;
+        gap: 35px;
+    }
+
+    .card {
+        width: 28%;
+        padding: 0;
+
+        h3 {
+            font-size: 15px;
+            width: auto;
+        }
+
+        img {
+            height: 298px;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .card-container {
+        flex-direction: column;
+        background: #fff;
+        padding: 0 0 22px 0;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 0;
+
+        img {
+            height: 255px;
+        }
+    }
+}

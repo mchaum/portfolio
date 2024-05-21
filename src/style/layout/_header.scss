@@ -1,0 +1,81 @@
+@use '../abstracts/variables' as *;
+
+h1 {
+    color: $main-txt-color;
+    font-size: 16px;
+}
+
+h2 {
+    margin-top: 40px;
+    color: $main-txt-color;
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+
+    img {
+        width: 5%;
+    }
+}
+
+.banner-navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.nav-active {
+    position: relative;
+
+    p {
+        color: $main-txt-color;
+    }
+
+    ::after {
+        content: "";
+        height: 2px;
+        width: 0;
+        background: $main-txt-color;
+        position: absolute;
+        border-radius: 10px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: anim 0.6s ease forwards;
+    }
+}
+
+@keyframes anim {
+    to {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    header {
+        padding: 20px 20px 27px 20px;
+
+        img {
+            width: 38.7%;
+        }
+    }
+
+    .banner-navbar {
+        gap: 26px;
+
+        a {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+}

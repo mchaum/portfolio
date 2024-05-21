@@ -1,0 +1,36 @@
+@use '../abstracts/variables' as *;
+
+/* Filtres */
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.filter-btn {
+    background-color: #fff;
+    border: 1px solid $main-color;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    cursor: pointer;
+    
+    :hover {
+        color: $main-txt-color;
+    }
+}
+
+.selected-filter {
+    background-color: $main-color;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    cursor: pointer;
+}

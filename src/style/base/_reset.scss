@@ -1,0 +1,12 @@
+@use '../abstracts/mixins' as *;
+@use '../abstracts/variables' as *;
+
+// Reset //
+
+* {
+    margin: 0;
+    @include text;
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+  }

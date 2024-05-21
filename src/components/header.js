@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import Logo from '../assets/logoC.png';
 
 const Header = () => {
     return (
         <header>
-            <h1>mchaum</h1>
+            <img src={Logo} alt="mchaum" />
             <div className='banner-navbar'>
             <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}><p>Accueil</p></NavLink>
             <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}><p>A propos</p></NavLink>
