@@ -2,18 +2,18 @@
 
 h1 {
     color: $main-txt-color;
-    font-size: 16px;
+    font-size: 2.2rem;
 }
 
 h2 {
     margin-top: 40px;
     color: $main-txt-color;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
 }
 
 header {
-    background-color: #fff;
+    background: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,7 +21,9 @@ header {
     padding: 15px 40px;
 
     img {
-        width: 5%;
+        width: 6%;
+        margin-left: 10px;
+        margin-top: 5px;
     }
 }
 
@@ -64,17 +66,18 @@ header {
 @media (max-width: 767.98px) {
     header {
         padding: 20px 20px 27px 20px;
+        justify-content: flex-end;
 
         img {
-            width: 38.7%;
+            display: none;
         }
     }
 
     .banner-navbar {
-        gap: 26px;
+        gap: 20px;
 
         a {
-            font-size: 12px;
+            font-size: 11px;
             text-transform: uppercase;
         }
     }

@@ -9,7 +9,6 @@ const Contact = () => {
             <Header />
             <div className='contact-container'>
                 <ContactForm />
-                    <img className='contact-img'src={SocialsImg} alt='Femme avec un ordinateur' />
             </div>
         </div>
     );
