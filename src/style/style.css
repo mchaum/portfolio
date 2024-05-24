@@ -57,7 +57,7 @@
   margin: 0 20px 0 0;
   text-align: center;
 }
-.card-links a :hover {
+.card-links a:hover {
   color: #636851;
 }
 
@@ -168,7 +168,7 @@
   transition: all 0.2s ease-in;
   cursor: pointer;
 }
-.formButton :hover {
+.formButton:hover {
   cursor: pointer;
   box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
   transform: translateX(-5px) translateY(-5px);
@@ -203,7 +203,7 @@
   text-align: center;
   cursor: pointer;
 }
-.filter-btn :hover {
+.filter-btn:hover {
   color: #636851;
 }
 
@@ -386,7 +386,7 @@ header img {
   margin: 0 20px 0 0;
   text-align: center;
 }
-.link-btn :hover {
+.link-btn:hover {
   color: #636851;
 }
 
