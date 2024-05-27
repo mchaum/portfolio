@@ -86,17 +86,18 @@
     }
 
     .card {
-        width: 28%;
         padding: 0;
+        gap: 20px;
+        width: auto;
 
         h3 {
             font-size: 15px;
             width: auto;
         }
+    }
 
-        img {
-            height: 298px;
-        }
+    .card-img {
+        width: 50%;
     }
 }
 
@@ -106,14 +107,33 @@
         background: #fff;
         padding: 0 0 22px 0;
         gap: 20px;
+        flex-direction: column;
+        gap: 60px;
     }
 
     .card {
         width: 100%;
         padding: 0;
+        flex-direction: column;
+        gap: 25px;
 
+        h3 {
+            margin-bottom: 0;
+        }
+    }
+
+    .card-img {
+        width: 70%;
+    }
+
+    .card-content {
+        margin: 5px 20px 20px 20px;
+        gap: 25px;
+    }
+
+    .card-competences {
         img {
-            height: 255px;
+            height: 4rem;
         }
     }
 }

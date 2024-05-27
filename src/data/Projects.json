@@ -2,7 +2,7 @@
 	{
 		"id": "01",
 		"title": "Booki",
-		"cover": "../assets/booki.png",
+		"cover": "../assets/booki.webp",
 		"description": "Création de la page d'accueil d'une agence de voyage : utilisation de HTML et CSS, intégration d'une interface responsive.",
         "links": [ {
 			"name": "GitHub",
@@ -15,18 +15,18 @@
 		],
         "competences": [ {
 			"name" : "HTML",
-            "icon" : "../assets/HTML5.png"
+            "icon" : "../assets/HTML5.webp"
 		},
 		{
 			"name" : "CSS",
-			"icon" : "..//assets/CSS3.png"
+			"icon" : "..//assets/CSS3.webp"
 		}
 		]
 	},
     {
         "id": "02",
 		"title": "OhMyFood",
-		"cover": "../assets/ohmyfood.png",
+		"cover": "../assets/ohmyfood.webp",
 		"description": "Création de l'interface mobile-first du site d’une start-up spécialisée dans la restauration : utilisation de SASS et implémentation d'animations CSS.",
 		"links": [ {
 			"name": "GitHub",
@@ -39,18 +39,18 @@
 		],
         "competences": [ {
 			"name" : "HTML",
-            "icon" : "../assets/HTML5.png"
+            "icon" : "../assets/HTML5.webp"
 		},
 		{
 			"name" : "SASS",
-			"icon" : "..//assets/SASS.png"
+			"icon" : "..//assets/SASS.webp"
 		}
 		]
     },
     {
         "id": "03",
 		"title": "Sophie Bluel - Portfolio architecte",
-		"cover": "../assets/bluel.png",
+		"cover": "../assets/bluel.webp",
 		"description": "Création d'une page web dynamique à partir d'un HTML existant: ajout d'une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.",
 		"links": [ {
 			"name": "GitHub",
@@ -59,14 +59,14 @@
 		],
         "competences": [ {
 			"name" : "Javascript",
-            "icon" : "../assets/JS.png"
+            "icon" : "../assets/JS.webp"
 		}
 		]
     },
     {
         "id": "04",
 		"title": "Kasa",
-		"cover": "../assets/kasa.png",
+		"cover": "../assets/kasa.webp",
 		"description": "Implémentation du ront-end d’une application web de location immobilière en utilisant React et React Router : utilisation de composants React et configuration de la navigation entre les différentes pages de l'application avec React router.",
 		"links": [ {
 			"name": "GitHub",
@@ -75,18 +75,18 @@
 		],
         "competences": [ {
 			"name" : "React",
-            "icon" : "../assets/React.png"
+            "icon" : "../assets/React.webp"
 		},
 		{
 			"name" : "SASS",
-			"icon" : "..//assets/SASS.png"
+			"icon" : "..//assets/SASS.webp"
 		}
 		]
     },
     {
         "id": "05",
 		"title": "Argent Bank",
-		"cover": "../assets/argent-bank.png",
+		"cover": "../assets/argent-bank.webp",
 		"description": "Intégration du front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive : utilisation de React pour développer l'interface utilisateur à partir d'un HTML existant et de Redux pour gérer les données de l'application.",
 		"links": [ {
 			"name": "GitHub",
@@ -95,15 +95,15 @@
 		],
         "competences": [ {
 			"name" : "React",
-            "icon" : "../assets/React.png"
+            "icon" : "../assets/React.webp"
 		},
 		{
 			"name" : "Redux",
-            "icon" : "../assets/Redux.png"
+            "icon" : "../assets/Redux.webp"
 		},
 		{
 			"name" : "SASS",
-			"icon" : "..//assets/SASS.png"
+			"icon" : "..//assets/SASS.webp"
 		}
 		]
     }
