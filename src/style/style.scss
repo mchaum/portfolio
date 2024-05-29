@@ -4,12 +4,16 @@
 @use './base/typo';
 @use './base/reset';
 
+@use './components/aboutcomp';
 @use './components/cards';
 @use './components/contactform';
+@use './components/education';
 @use './components/filters';
+@use './components/skills';
 
 @use './layout/footer';
 @use './layout/header';
 
+@use './pages/about';
 @use './pages/contact';
 @use './pages/home';

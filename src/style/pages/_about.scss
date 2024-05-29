@@ -1,0 +1,62 @@
+@use '../abstracts/variables' as *;
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+    margin: 0 3% 5% 3%;
+}
+
+.about-pointlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.about-point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.point {
+    padding: 20px 15px;
+    border-radius: 90px;
+    width: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: $main-bg-color;
+}
+
+.svg-inline--fa {
+    font-size: 30px;
+}
+
+
+@media (max-width: 1023.98px) {
+
+    .about-container {
+        flex-direction: column-reverse;
+        margin-top: 3%;
+    }
+
+    .about-pointlist {
+        flex-direction: row;
+        position: initial;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+.about-pointlist {
+    gap: 20px;
+}
+
+.about-point {
+    p {
+        font-size: 0.8em;
+    }
+}
+}

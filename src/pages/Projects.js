@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div>
             <Header />
-            <h2>Mes projets</h2>
+            <h2>MES PROJETS</h2>
             <ProjectCard />
         </div>
     );
