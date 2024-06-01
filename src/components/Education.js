@@ -1,4 +1,5 @@
 import React from 'react';
+import pdf from '../assets/2024-mchaum.pdf';
 
 const Education = () => {
     return (
@@ -62,7 +63,7 @@ const Education = () => {
                         </div>
                     </div>
                 </div>
-                <button>Télécharger mon CV</button>
+                <a href={pdf} download="Mathilde-CV.pdf">Télécharger mon CV</a>
             </div>
         </div>
     );

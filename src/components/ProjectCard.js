@@ -22,7 +22,8 @@ const Card = () => {
     // project.competences.some() vérifie si au moins une des compétences du projet correspond à la compétence sélectionnée //
 
     return (
-        <div>
+        <div className='projects-container'>
+            <h2>MES PROJETS</h2>
             <div className="filters">
                 <button onClick={handleShowAll} className={!selectedSkill ? 'selected-filter' : 'filter-btn'}>Tous</button>
 

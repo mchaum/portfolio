@@ -50,13 +50,17 @@
 }
 
 @media (max-width: 767.98px) {
-.about-pointlist {
-    gap: 20px;
-}
-
-.about-point {
-    p {
-        font-size: 0.8em;
+    .about-pointlist {
+        gap: 20px;
     }
-}
+
+    .about-point {
+        p {
+            font-size: 0.8em;
+        }
+    }
+
+    .about-container {
+        margin-top: 15%;
+    }
 }

@@ -6,7 +6,6 @@ const Projects = () => {
     return (
         <div>
             <Header />
-            <h2>MES PROJETS</h2>
             <ProjectCard />
         </div>
     );
