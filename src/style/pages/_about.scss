@@ -3,9 +3,9 @@
 .about-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 5%;
-    margin: 0 3% 5% 3%;
+    margin: 0 3% 5% 5%;
 }
 
 .about-pointlist {
@@ -13,6 +13,9 @@
     flex-direction: column;
     justify-content: center;
     gap: 40px;
+    position: fixed;
+    right: 5%;
+    top: 200px;
 }
 
 .about-point {
