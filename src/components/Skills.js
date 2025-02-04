@@ -11,6 +11,8 @@ import notion from '../assets/notion.webp';
 import creativity from '../assets/creativity.webp';
 import curiosity from '../assets/curiosity.webp';
 import agile from '../assets/agile.webp';
+import angular from '../assets/Angular.webp';
+import java from '../assets/Java.webp';
 
 const Skills = () => {
     return (
@@ -87,6 +89,19 @@ const Skills = () => {
                                 <img src={notion} alt='Logo Notion'></img>
                             </div>
                             <p>Notion</p>
+                        </article>
+
+                    <article className='about-point'>
+                            <div className='skill-point'>
+                                <img src={angular} alt='Logo Angular'></img>
+                            </div>
+                            <p>Angular</p>
+                        </article>
+                        <article className='about-point'>
+                            <div className='skill-point'>
+                                <img src={java} alt='Logo Java'></img>
+                            </div>
+                            <p>Java</p>
                         </article>
 
                     </div>
