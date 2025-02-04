@@ -106,5 +106,30 @@
 			"icon" : "..//assets/SASS.webp"
 		}
 		]
-    }
+    },
+	,
+	{
+		"id": "06",
+		"title": "Writing Prompt Generator",
+		"cover": "../assets/Writing-prompt-generator.png",
+		"description": "Création d'un générateur d'idées pour l'écriture.",
+        "links": [ {
+			"name": "GitHub",
+			"link": "https://github.com/mchaum/writing-prompt-generator"
+		},
+		{
+			"name": "Visualiser",
+			"link": "https://writing-prompt-generator.vercel.app/"
+		}	
+		],
+        "competences": [ {
+			"name" : "Angular",
+            "icon" : "..//assets/Angular.webp"
+		},
+		{
+			"name" : "SASS",
+			"icon" : "..//assets/SASS.webp"
+		}
+		]
+	}
 ]
