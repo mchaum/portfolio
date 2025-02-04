@@ -56,6 +56,19 @@ const Skills = () => {
                             </div>
                             <p>React</p>
                         </article>
+
+                        <article className='about-point'>
+                            <div className='skill-point'>
+                                <img src={angular} alt='Logo Angular'></img>
+                            </div>
+                            <p>Angular</p>
+                        </article>
+                        <article className='about-point'>
+                            <div className='skill-point'>
+                                <img src={java} alt='Logo Java'></img>
+                            </div>
+                            <p>Java</p>
+                        </article>
                     </div>
                 </div>
 
@@ -90,20 +103,6 @@ const Skills = () => {
                             </div>
                             <p>Notion</p>
                         </article>
-
-                    <article className='about-point'>
-                            <div className='skill-point'>
-                                <img src={angular} alt='Logo Angular'></img>
-                            </div>
-                            <p>Angular</p>
-                        </article>
-                        <article className='about-point'>
-                            <div className='skill-point'>
-                                <img src={java} alt='Logo Java'></img>
-                            </div>
-                            <p>Java</p>
-                        </article>
-
                     </div>
                 </div>
 
