@@ -1,19 +1,20 @@
 import React, { useState } from 'react';
+import { useTranslation, Trans } from "react-i18next";
 import Header from '../components/header';
 import AboutComp from '../components/AboutComp';
 import Education from '../components/Education';
 import Skills from '../components/Skills';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAward } from '@fortawesome/free-solid-svg-icons';
-import { faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
+import { faAward, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 
 const About = () => {
-
-    // État pour déterminer quel composant afficher
+    const { t } = useTranslation();
+    
+    // État pour déterminer quel composant afficher //
     const [currentComponent, setCurrentComponent] = useState('about-me');
 
-    // Fonction pour afficher le composant approprié
+    // Fonction pour afficher le composant approprié //
     const renderComponent = () => {
         switch (currentComponent) {
             case 'about-me':
@@ -32,30 +33,29 @@ const About = () => {
             <Header />
             <div className='about-container'>
                 {/* Affichage du composant approprié */}
-                    {renderComponent()}
+                {renderComponent()}
                 {/* Liens pour changer de composant */}
                 <nav className='about-pointlist'>
-                <article className='about-point'>
+                    <article className='about-point'>
                         <div className='point' onClick={() => setCurrentComponent('about-me')}>
                             <FontAwesomeIcon icon={faAddressCard} />
                         </div>
-                        <p>À propos</p>
+                        <p><Trans>{t("about")}</Trans></p>
                     </article>
 
                     <article className='about-point'>
                         <div className='point' onClick={() => setCurrentComponent('education')}>
                             <FontAwesomeIcon icon={faAward} />
                         </div>
-                        <p>Mon parcours</p>
+                        <p><Trans>{t("myEducation")}</Trans></p>
                     </article>
 
                     <article className='about-point'>
                         <div className='point' onClick={() => setCurrentComponent('skills')}>
                             <FontAwesomeIcon icon={faScrewdriverWrench} />
                         </div>
-                        <p>Compétences</p>
+                        <p><Trans>{t("skills")}</Trans></p>
                     </article>
-
                 </nav>
             </div>
         </div>

@@ -11,14 +11,20 @@ import notion from '../assets/notion.webp';
 import creativity from '../assets/creativity.webp';
 import curiosity from '../assets/curiosity.webp';
 import agile from '../assets/agile.webp';
+import angular from '../assets/Angular.webp';
+import java from '../assets/Java.webp';
+import { useTranslation, Trans } from 'react-i18next';
 
 const Skills = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div className='skills-container'>
-            <h2 className='timelines'>MES COMPÉTENCES</h2>
+            <h2 className='timelines'><Trans>{t("mySkills")}</Trans></h2>
             <div className='skills-list'>
                 <div className='skills-category'>
-                    <h3>Compétences</h3>
+                    <h3><Trans>{t("skills")}</Trans></h3>
                     <div className='skills-line'></div>
                     <div className='category-items'>
                         <article className='about-point'>
@@ -54,11 +60,23 @@ const Skills = () => {
                             </div>
                             <p>React</p>
                         </article>
+                        <article className='about-point'>
+                            <div className='skill-point'>
+                                <img src={angular} alt='Logo Angular'></img>
+                            </div>
+                            <p>Angular</p>
+                        </article>
+                        <article className='about-point'>
+                            <div className='skill-point'>
+                                <img src={java} alt='Logo Java'></img>
+                            </div>
+                            <p>Java</p>
+                        </article>
                     </div>
                 </div>
 
                 <div className='skills-category'>
-                    <h3>Outils</h3>
+                    <h3><Trans>{t("tools")}</Trans></h3>
                     <div className='skills-line'></div>
                     <div className='category-items'>
                         <article className='about-point'>
@@ -100,21 +118,21 @@ const Skills = () => {
                             <div className='skill-point'>
                                 <img src={creativity} alt='Icône représentant la créativité'></img>
                             </div>
-                            <p>Créativité</p>
+                            <p><Trans>{t("creativity")}</Trans></p>
                         </article>
 
                         <article className='about-point'>
                             <div className='skill-point'>
                                 <img src={curiosity} alt='Icône représentant la curiosité'></img>
                             </div>
-                            <p>Curiosité</p>
+                            <p><Trans>{t("curiosity")}</Trans></p>
                         </article>
 
                         <article className='about-point'>
                             <div className='skill-point'>
                                 <img src={agile} alt='Icône représentant les méthodes agiles'></img>
                             </div>
-                            <p>Méthodes agiles</p>
+                            <p><Trans>{t("agile")}</Trans></p>
                         </article>
                         </div>
                 </div>

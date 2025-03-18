@@ -1,110 +1,126 @@
 [
-	{
-		"id": "01",
-		"title": "Booki",
-		"cover": "../assets/booki.webp",
-		"description": "Création de la page d'accueil d'une agence de voyage : utilisation de HTML et CSS, intégration d'une interface responsive.",
-        "links": [ {
-			"name": "GitHub",
-			"link": "https://github.com/mchaum/booki"
-		},
-		{
-			"name": "Visualiser",
-			"link": "https://mchaum.github.io/booki/"
-		}	
-		],
-        "competences": [ {
-			"name" : "HTML",
-            "icon" : "../assets/HTML5.webp"
-		},
-		{
-			"name" : "CSS",
-			"icon" : "..//assets/CSS3.webp"
-		}
-		]
-	},
+    {
+        "id": "01",
+        "title": {
+            "fr": "OhMyFood",
+            "en": "OhMyFood"
+        },
+        "cover": "../assets/ohmyfood.webp",
+        "description": {
+            "fr": "Création de l'interface mobile-first du site d’une start-up spécialisée dans la restauration : utilisation de SASS et implémentation d'animations CSS.",
+            "en": "Creating a mobile-first interface for a start-up specialized in food service: using SASS and implementating CSS animations."
+        },
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/mchaum/Ohmyfood"
+            },
+            {
+                "name": "Visualiser",
+                "link": "https://mchaum.github.io/Ohmyfood/"
+            }
+        ],
+        "competences": [
+            {
+                "name": "HTML",
+                "icon": "../assets/HTML5.webp"
+            },
+            {
+                "name": "SASS",
+                "icon": "../assets/SASS.webp"
+            }
+        ]
+    },
     {
         "id": "02",
-		"title": "OhMyFood",
-		"cover": "../assets/ohmyfood.webp",
-		"description": "Création de l'interface mobile-first du site d’une start-up spécialisée dans la restauration : utilisation de SASS et implémentation d'animations CSS.",
-		"links": [ {
-			"name": "GitHub",
-			"link": "https://github.com/mchaum/Ohmyfood"
-		},
-		{
-			"name": "Visualiser",
-			"link": "https://mchaum.github.io/Ohmyfood/"
-		}	
-		],
-        "competences": [ {
-			"name" : "HTML",
-            "icon" : "../assets/HTML5.webp"
-		},
-		{
-			"name" : "SASS",
-			"icon" : "..//assets/SASS.webp"
-		}
-		]
+        "title": {
+            "fr": "Kasa",
+            "en": "Kasa"
+        },
+        "cover": "../assets/kasa.webp",
+        "description": {
+            "fr": "Implémentation du front-end d’une application web de location immobilière en utilisant React et React Router : utilisation de composants React et configuration de la navigation entre les différentes pages de l'application avec React Router.",
+            "en": "Implementating the front-end for a real estate rental web application using React and React Router: use of React components and configuration of navigation between different pages of the application with React Router."
+        },
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/mchaum/Kasa"
+            }
+        ],
+        "competences": [
+            {
+                "name": "React",
+                "icon": "../assets/React.webp"
+            },
+            {
+                "name": "SASS",
+                "icon": "../assets/SASS.webp"
+            }
+        ]
     },
     {
         "id": "03",
-		"title": "Sophie Bluel - Portfolio architecte",
-		"cover": "../assets/bluel.webp",
-		"description": "Création d'une page web dynamique à partir d'un HTML existant: ajout d'une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.",
-		"links": [ {
-			"name": "GitHub",
-			"link": "https://github.com/mchaum/Portfolio-architecte-sophie-bluel-master"
-		}	
-		],
-        "competences": [ {
-			"name" : "Javascript",
-            "icon" : "../assets/JS.webp"
-		}
-		]
+        "title": {
+            "fr": "Argent Bank",
+            "en": "Argent Bank"
+        },
+        "cover": "../assets/argent-bank.webp",
+        "description": {
+            "fr": "Intégration du front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive : utilisation de React pour développer l'interface utilisateur à partir d'un HTML existant et de Redux pour gérer les données de l'application.",
+            "en": "Integrating the front-end for a banking application using React and Redux to create a dynamic and responsive user experience: use of React to develop the user interface from an existing HTML structure and Redux to manage the application's data."
+        },
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/mchaum/argent-bank"
+            }
+        ],
+        "competences": [
+            {
+                "name": "React",
+                "icon": "../assets/React.webp"
+            },
+            {
+                "name": "Redux",
+                "icon": "../assets/Redux.webp"
+            },
+            {
+                "name": "SASS",
+                "icon": "../assets/SASS.webp"
+            }
+        ]
     },
     {
         "id": "04",
-		"title": "Kasa",
-		"cover": "../assets/kasa.webp",
-		"description": "Implémentation du ront-end d’une application web de location immobilière en utilisant React et React Router : utilisation de composants React et configuration de la navigation entre les différentes pages de l'application avec React router.",
-		"links": [ {
-			"name": "GitHub",
-			"link": "https://github.com/mchaum/Kasa"
-		}	
-		],
-        "competences": [ {
-			"name" : "React",
-            "icon" : "../assets/React.webp"
-		},
-		{
-			"name" : "SASS",
-			"icon" : "..//assets/SASS.webp"
-		}
-		]
-    },
-    {
-        "id": "05",
-		"title": "Argent Bank",
-		"cover": "../assets/argent-bank.webp",
-		"description": "Intégration du front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive : utilisation de React pour développer l'interface utilisateur à partir d'un HTML existant et de Redux pour gérer les données de l'application.",
-		"links": [ {
-			"name": "GitHub",
-			"link": "https://github.com/mchaum/argent-bank"
-		}	
-		],
-        "competences": [ {
-			"name" : "React",
-            "icon" : "../assets/React.webp"
-		},
-		{
-			"name" : "Redux",
-            "icon" : "../assets/Redux.webp"
-		},
-		{
-			"name" : "SASS",
-			"icon" : "..//assets/SASS.webp"
-		}
-		]
+        "title": {
+            "fr": "Writing Prompt Generator",
+            "en": "Writing Prompt Generator"
+        },
+        "cover": "../assets/Writing-prompt-generator.png",
+        "description": {
+            "fr": "Création d'un générateur d'idées pour l'écriture.",
+            "en": "Creating a writing prompt generator."
+        },
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/mchaum/writing-prompt-generator"
+            },
+            {
+                "name": "Visualiser",
+                "link": "https://writing-prompt-generator.vercel.app/"
+            }
+        ],
+        "competences": [
+            {
+                "name": "Angular",
+                "icon": "../assets/Angular.webp"
+            },
+            {
+                "name": "SASS",
+                "icon": "../assets/SASS.webp"
+            }
+        ]
     }
 ]

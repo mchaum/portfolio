@@ -85,7 +85,7 @@
   margin: 0 20px 0 0;
   text-align: center;
 }
-.card-links a:hover {
+.card-links a :hover {
   color: #636851;
 }
 
@@ -214,7 +214,7 @@
   transition: all 0.2s ease-in;
   cursor: pointer;
 }
-.formButton:hover {
+.formButton :hover {
   cursor: pointer;
   box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
   transform: translateX(-5px) translateY(-5px);
@@ -399,7 +399,7 @@ p {
   text-align: center;
   cursor: pointer;
 }
-.filter-btn:hover {
+.filter-btn :hover {
   color: #636851;
 }
 
@@ -579,6 +579,22 @@ header img {
   display: none;
 }
 
+.lang-toggle {
+  background: none;
+  border: 2px solid #fff;
+  color: #636851;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.lang-toggle:hover {
+  background: #fff;
+  color: #000;
+}
+
 @media (max-width: 767.98px) {
   header {
     justify-content: center;
@@ -625,7 +641,7 @@ header img {
   .burger-nav {
     display: block;
   }
-  .burger-nav:hover {
+  .burger-nav :hover {
     cursor: pointer;
   }
   .burger-bar,
@@ -781,7 +797,7 @@ header img {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
   text-align: center;
 }
-.link-btn:hover {
+.link-btn :hover {
   color: #636851;
 }
 

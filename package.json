@@ -16,8 +16,11 @@
     "eslint": "^9.3.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-react": "^7.34.1",
+    "i18next": "^24.2.2",
+    "i18next-browser-languagedetector": "^8.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^15.4.1",
     "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
     "typescript": "^5.4.5",
@@ -48,7 +51,10 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.24.5",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/core": "^7.26.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^10.0.0"
   }
 }
