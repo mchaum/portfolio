@@ -106,7 +106,6 @@ const Skills = () => {
                             </div>
                             <p>Notion</p>
                         </article>
-
                     </div>
                 </div>
 
