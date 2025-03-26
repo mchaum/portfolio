@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../assets/2024-mchaum.pdf';
+import pdf from '../assets/2025-mchaum.pdf';
 import { useTranslation, Trans } from 'react-i18next';
 
 const Education = () => {
