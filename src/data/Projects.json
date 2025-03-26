@@ -99,8 +99,8 @@
         },
         "cover": "../assets/Writing-prompt-generator.png",
         "description": {
-            "fr": "Création d'un générateur d'idées pour l'écriture.",
-            "en": "Creating a writing prompt generator."
+            "fr": "Création d'une interface pour un générateur d'idées aléatoires d'écriture.",
+            "en": "Creating a single front-end page with a retro style for a writing prompt generator."
         },
         "links": [
             {

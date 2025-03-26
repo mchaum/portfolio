@@ -77,12 +77,10 @@ header {
 
 .lang-toggle {
     background: none;
-    border: 2px solid #fff;
+    border: none;
     color: $main-txt-color;
-    padding: 5px 10px;
     cursor: pointer;
     font-size: 14px;
-    margin-left: 10px;
     transition: 0.3s;
 }
 
@@ -123,7 +121,7 @@ header {
             font-size: 11px;
             text-transform: uppercase;
             display: block;
-            padding: 1.5rem;
+            padding: 1rem 0;
         }
 
         p {
@@ -135,7 +133,6 @@ header {
     .show-nav {
             right: 0;
             left: 0;
-            width: 100vw;
             visibility: visible;
         }
 
@@ -187,5 +184,9 @@ header {
 
     .burger-nav.scrolled {
         display: none;
+    }
+
+    .lang-toggle {
+        margin-top: 1rem;
     }
 }

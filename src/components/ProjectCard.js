@@ -18,6 +18,8 @@ const Card = () => {
         project.competences.some(competence => competence.name === selectedSkill)
     ) : Projects;
 
+    const sortedProjects = [...filteredProjects].sort((a, b) => b.id - a.id);
+
     return (
         <div className='projects-container'>
             <h2><Trans>{t("myProjects")}</Trans></h2>
@@ -37,7 +39,7 @@ const Card = () => {
             </div>
 
             <div className='card-container'>
-                {filteredProjects.map((projet) => (
+                {sortedProjects.map((projet) => (
                     <div key={projet.id} className='card'>
                         <img className='card-img' src={projet.cover} alt={projet.title[i18n.language]} />
                         <div className='card-content'>
