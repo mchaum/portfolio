@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style/style.css';
 import App from './App';
-import i18n from './locales/i18n';
+import './locales/i18n';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
