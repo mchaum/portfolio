@@ -13,6 +13,8 @@ import curiosity from '../assets/curiosity.webp';
 import agile from '../assets/agile.webp';
 import angular from '../assets/Angular.webp';
 import java from '../assets/Java.webp';
+import wordpress from '../assets/WordPress.png';
+import seo from '../assets/seo-logo.webp';
 import { useTranslation, Trans } from 'react-i18next';
 
 const Skills = () => {
@@ -71,6 +73,12 @@ const Skills = () => {
                                 <img src={java} alt='Logo Java'></img>
                             </div>
                             <p>Java</p>
+                        </article>
+                        <article className='about-point'>
+                            <div className='skill-point'>
+                                <img src={wordpress} alt='Logo WordPress'></img>
+                            </div>
+                            <p>WordPress</p>
                         </article>
                     </div>
                 </div>
@@ -132,6 +140,13 @@ const Skills = () => {
                                 <img src={agile} alt='Icône représentant les méthodes agiles'></img>
                             </div>
                             <p><Trans>{t("agile")}</Trans></p>
+                        </article>
+
+                        <article className='about-point'>
+                            <div className='skill-point'>
+                                <img src={seo} alt='Icône représentant le SEO'></img>
+                            </div>
+                            <p><Trans>{t("seo")}</Trans></p>
                         </article>
                         </div>
                 </div>

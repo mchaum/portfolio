@@ -62,6 +62,38 @@
     {
         "id": "03",
         "title": {
+            "fr": "Nina Carducci",
+            "en": "Nina Carducci"
+        },
+        "cover": "../assets/nina-carducci.webp",
+        "description": {
+            "fr": "Intégration du front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive : utilisation de React pour développer l'interface utilisateur à partir d'un HTML existant et de Redux pour gérer les données de l'application.",
+            "en": "Integrating the front-end for a banking application using React and Redux to create a dynamic and responsive user experience: use of React to develop the user interface from an existing HTML structure and Redux to manage the application's data."
+        },
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/mchaum/NinaCarducci"
+            },
+            {
+                "name": "Visualiser",
+                "link": "https://mchaum.github.io/NinaCarducci/"
+            }
+        ],
+        "competences": [
+            {
+                "name": "Optimisation SEO",
+                "icon": "../assets/seo-logo.webp"
+            },
+            {
+                "name": "HTML",
+                "icon": "../assets/HTML5.webp"
+            }
+        ]
+    },
+    {
+        "id": "04",
+        "title": {
             "fr": "Argent Bank",
             "en": "Argent Bank"
         },
@@ -92,7 +124,7 @@
         ]
     },
     {
-        "id": "04",
+        "id": "05",
         "title": {
             "fr": "Writing Prompt Generator",
             "en": "Writing Prompt Generator"
@@ -120,6 +152,34 @@
             {
                 "name": "SASS",
                 "icon": "../assets/SASS.webp"
+            }
+        ]
+    },
+    {
+        "id": "06",
+        "title": {
+            "fr": "Luna Flora",
+            "en": "Luna Flora"
+        },
+        "cover": "../assets/luna-flora.webp",
+        "description": {
+            "fr": "Création d'un site vitrine pour une fleuriste en utilisant WordPress. Modification et adaptation d'un thème existant avec Elementor, utilisation de plusieurs plugins et prise en compte du SEO.",
+            "en": "Creating a single front-end page for a florist with WordPress. I modified and adapted an existing theme with Elementor, used other plugins and optimized the website for SEO."
+        },
+        "links": [
+            {
+                "name": "Visualiser",
+                "link": "https://mchaum.github.io/luna-flora/"
+            }
+        ],
+        "competences": [
+            {
+                "name": "Wordpress",
+                "icon": "../assets/WordPress.png"
+            },
+            {
+                "name": "Optimisation SEO",
+                "icon": "../assets/seo-logo.webp"
             }
         ]
     }

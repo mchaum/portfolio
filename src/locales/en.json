@@ -3,7 +3,7 @@
   "about": "About",
   "projects": "Projects",
   "contact": "Contact",
-  "homeTitle": "FULL-STACK<br/>DEVELOPER",
+  "homeTitle": "WEB DEVELOPER<br/>& INTEGRATOR",
   "homeDescription": "Hi, I'm Mathilde, a full-stack developer located in Bordeaux (France). 📍",
   "contact-btn": "Contact",
   "works": "Works",
@@ -13,9 +13,9 @@
   "skills": "Skills",
   "aboutTitle": "ABOUT",
   "aboutImgAlt": "PC with plants",
-  "aboutParagraph1": "Hello, my name is Mathilde, and I am a full-stack developer! Passionate about creating smooth and intuitive web solutions, my interest in digital creation and thirst for knowledge naturally led me to this field.",
+  "aboutParagraph1": "Hello, my name is Mathilde, and I am a web developer and integrator. I am aiming to specialize in creating websites with a strong focus on SEO optimization and user experience. My journey in web development has allowed me to build a comprehensive skill set: from web design integration to the deployment of optimized websites, including natural referencing (SEO) and performance improvements.",
   "aboutParagraph2": "After a long period of exploration in various professional fields, I finally found my way in web development. In 2023, I had the opportunity to return to my studies. I first started programming in 2013 during my first bachelor degree (MIASHS), where I gained a first knowledge in algorithms and Python. However, it was only in 2023 that I decided to specialize in front-end development.",
-  "aboutParagraph3": "I joined the OpenClassrooms web integrator developer certification program (level Baccalaureat / High School Degree +2), where I strengthened my skills in HTML and CSS while developing new knowledge in JavaScript and React. I then continued my learning journey by taking the Full-stack Java / Angular developer course. Diligent, autonomous, and passionate, I strive daily to enrich my development skills, with a particular fondness for React.",
+  "aboutParagraph3": "I joined the OpenClassrooms web integrator developer certification program (level Baccalaureat / High School Degree +2), where I strengthened my skills in HTML and CSS while developing new knowledge in JavaScript and React. I then continued my learning journey by taking the Full-stack Java / Angular developer course. Serious, autonomous, and passionate, I strive every day to enhance my development skills, with a particular affection for React and WordPress. I love working on building interfaces that are both intuitive and optimized for search engines.",
   "aboutParagraph4": "If you are interested in collaborating or would like to know more about my background and projects, feel free to contact me! I am always open to new opportunities. ☀️",
   "formNameLabel": "Name",
   "formNamePlaceholder": "Your name...",
@@ -49,5 +49,6 @@
   "softskills": "Soft Skills",
   "creativity": "Creativity",
   "curiosity": "Curiosity",
-  "agile": "Agile Methods"
+  "agile": "Agile Methods",
+  "seo" : "SEO Optimization"
 }

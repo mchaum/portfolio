@@ -3,8 +3,8 @@
     "about": "À propos",
     "projects": "Projets",
     "contact": "Contact",
-    "homeTitle": "DÉVELOPPEUSE<br/>FULL-STACK",
-    "homeDescription": "Bonjour, moi c'est Mathilde, développeuse full-stack située à Bordeaux. 📍",
+    "homeTitle": "INTÉGRATRICE &<br/>DÉVELOPPEUSE WEB",
+    "homeDescription": "Bonjour, moi c'est Mathilde, passionnée par la création de sites vitrines optimisés, élégants et performants. 📍",
     "contact-btn": "Contact",
     "works": "Travaux",
     "myProjects": "MES PROJETS",
@@ -13,10 +13,10 @@
     "skills": "Compétences",
     "aboutTitle": "À PROPOS",
     "aboutImgAlt": "PC avec des plantes",
-    "aboutParagraph1": "Bonjour, je m'appelle Mathilde et je suis développeuse full-stack ! Passionnée par la création et l'intégration de pages web fluides et intuitives, mon intérêt pour la création numérique et ma soif de connaissances m'ont naturellement conduite vers ce domaine.",
+    "aboutParagraph1": "Bonjour, je m'appelle Mathilde et je suis développeuse et intégratrice web. Je cherche à me spécialiser dans la création de sites vitrines sous WordPress, avec un fort accent sur l'optimisation SEO et l'expérience utilisateur. Mon parcours dans le développement web m'a permis de développer une expertise complète : de l'intégration de maquettes web au déploiement de sites optimisés, en passant par le référencement naturel et la performance.",
     "aboutParagraph2": "Après une période d'errance où j'ai exploré divers domaines professionnels, j'ai finalement trouvé ma vocation dans le développement web. C'est donc en 2023, suite à un changement de vie, que j'ai eu l'opportunité de reprendre mes études. Mon premier contact avec la programmation remonte à 2013, lors de ma première licence (MIASHS) où j'ai acquis des bases en algorithme et en Python. Ce n'est cependant qu'en 2023 que j'ai décidé de me spécialiser dans le développement front-end.",
-    "aboutParagraph3": "J'ai rejoint la formation certifiante de développeur intégrateur web (niveau bac +2) d'OpenClassrooms, où j'ai renforcé mes compétences en HTML et CSS, tout en développant de nouvelles connaissances en JavaScript et React. J'ai ensuite continué mon apprentissage en me lançant dans la formation de développeur Full-stack Java /Angular. Sérieuse, autonome et passionnée, je m'efforce quotidiennement d'enrichir mes compétences en développement, avec une affection particulière pour React.",
-    "aboutParagraph4": "Si vous êtes intéressé par une collaboration ou souhaitez en savoir plus sur mon parcours et mes projets, n'hésitez pas à me contacter ! Je suis toujours ouverte à de nouvelles opportunités. ☀️",
+    "aboutParagraph3": "J'ai donc entrepris deux formations certifiantes : Développeur Intégrateur Web puis Développeur Full-stack Java/Angular. Ces expériences m'ont permis de renforcer mes compétences en HTML, CSS, JavaScript et React, tout en découvrant l'architecture front-end et back-end. Sérieuse, autonome et passionnée, je m'efforce quotidiennement d'enrichir mes compétences en développement, avec une affection particulière pour React et WordPress. J’aime travailler à développer des interfaces à la fois intuitives et optimisées pour le référencement.",
+    "aboutParagraph4": "Si vous cherchez quelqu'un pour donner vie à votre site vitrine ou optimiser votre présence en ligne, parlons-en ! ☀️",
     "formNameLabel": "Nom",
     "formNamePlaceholder": "Votre nom...",
     "formEmailLabel": "E-mail",
@@ -49,5 +49,6 @@
     "softskills": "Soft Skills",
     "creativity": "Créativité",
     "curiosity": "Curiosité",
-    "agile": "Méthodes agiles"
+    "agile": "Méthodes agiles",
+    "seo": "Optimisation SEO"
 }
