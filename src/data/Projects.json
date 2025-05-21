@@ -182,5 +182,41 @@
                 "icon": "../assets/seo-logo.webp"
             }
         ]
+    },
+    {
+        "id": "07",
+        "title": {
+            "fr": "Site Vitrine",
+            "en": "Personal website"
+        },
+        "cover": "../assets/mchaum.webp",
+        "description": {
+            "fr": "Création d'un site vitrine personnel en utilisant WordPress. Modification et adaptation d'un thème existant avec Elementor, utilisation de plusieurs plugins et prise en compte du SEO. Ajout de code en HTML et Javascript pour le carousel d'images et le formulaire.",
+            "en": "Creating a personal website with WordPress. I modified and adapted an existing theme with Elementor, used other plugins and optimized the website for SEO. I also added some HTML and Javascript for the slider and the contact form."
+        },
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/mchaum/mchaum-vitrine"
+            },
+            {
+                "name": "Visualiser",
+                "link": "https://mchaum-vitrine.vercel.app/"
+            }
+        ],
+        "competences": [
+            {
+                "name": "Wordpress",
+                "icon": "../assets/WordPress.png"
+            },
+            {
+                "name": "Optimisation SEO",
+                "icon": "../assets/seo-logo.webp"
+            },
+           {
+                "name": "HTML",
+                "icon": "../assets/HTML5.webp"
+            } 
+        ]
     }
 ]
